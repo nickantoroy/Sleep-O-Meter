@@ -1,0 +1,79 @@
+.app-container {
+  max-width: 480px;
+  margin: 50px auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  padding: 30px 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.sleep-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  color: #555;
+}
+
+.input-group label {
+  flex: 0 0 90px;
+}
+
+select {
+  padding: 6px 10px;
+  border: 1.5px solid #bbb;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #fff;
+  min-width: 60px;
+  text-align: center;
+  appearance: none;
+}
+
+select:focus {
+  outline: none;
+  border-color: #0077ff;
+  box-shadow: 0 0 5px #0077ff66;
+}
+
+.submit-btn {
+  padding: 12px;
+  font-size: 18px;
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #005fcc;
+}
+
+.response-box {
+  margin-top: 30px;
+  min-height: 60px;
+  padding: 15px 20px;
+  border-radius: 6px;
+  background-color: #e7f3ff;
+  color: #004a99;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+}
